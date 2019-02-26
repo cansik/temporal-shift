@@ -8,10 +8,6 @@
 
 import SceneKit
 
-#if os(watchOS)
-    import WatchKit
-#endif
-
 #if os(macOS)
     typealias SCNColor = NSColor
 #else

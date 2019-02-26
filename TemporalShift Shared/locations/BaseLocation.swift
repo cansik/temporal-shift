@@ -29,6 +29,10 @@ class BaseLocation : Location
     var onEnded : Event<Location> = Event()
     
     func setup(sceneRenderer : SCNView) {
+        // setup objects
+        self.scene = SCNScene()
+        self.hud = SKScene()
+        
         // resize hud
         self.hud.size = sceneRenderer.frame.size
     }

@@ -8,6 +8,7 @@
 
 import Foundation
 import SceneKit
+import SpriteKit
 
 class LidarLocation : BaseLocation {
     var cloudName : String
@@ -17,13 +18,19 @@ class LidarLocation : BaseLocation {
         self.cloudName = cloudName
         
         super.init(name: name)
-        
-        setupHud()
     }
     
-    func setupHud()
+    func setupHud(frameSize : CGSize)
     {
-        
+        // show location name
+        let infoLabel = SKLabelNode()
+        infoLabel.horizontalAlignmentMode = .left
+        infoLabel.color = SCNColor.blue
+        infoLabel.text = "Location: \(name)"
+        infoLabel.fontSize = 14.0;
+        infoLabel.fontColor = SCNColor.green
+        infoLabel.position = CGPoint(x: 20, y: frameSize.height - 50)
+        hud.addChild(infoLabel)
     }
     
     override func setup(sceneRenderer : SCNView)
@@ -32,5 +39,7 @@ class LidarLocation : BaseLocation {
         
         // load pointcloud and add it to scene
         scene.rootNode.addChildNode(loadCloud(cloudName: cloudName))
+        
+        setupHud(frameSize: sceneRenderer.frame.size)
     }
 }
