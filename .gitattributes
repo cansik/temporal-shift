@@ -47,4 +47,4 @@
 *.unity linguist-generated
 *.usdz filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
-*.scn linguist-generated
+*.scn filter=lfs diff=lfs merge=lfs -text

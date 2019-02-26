@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA439FD2225A0AC000F3543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA439FC2225A0AC000F3543 /* AppDelegate.swift */; };
+		ABA439FF2225A0AC000F3543 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA439FE2225A0AC000F3543 /* GameViewController.swift */; };
+		ABA43A022225A0AC000F3543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA43A002225A0AC000F3543 /* Main.storyboard */; };
+		ABA43A052225A0AC000F3543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA43A032225A0AC000F3543 /* LaunchScreen.storyboard */; };
+		ABA43A0E2225A0AC000F3543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA43A0D2225A0AC000F3543 /* AppDelegate.swift */; };
+		ABA43A102225A0AC000F3543 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA43A0F2225A0AC000F3543 /* GameViewController.swift */; };
+		ABA43A132225A0AC000F3543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA43A112225A0AC000F3543 /* Main.storyboard */; };
+		ABA43A1C2225A0AC000F3543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA43A1B2225A0AC000F3543 /* AppDelegate.swift */; };
+		ABA43A1E2225A0AC000F3543 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA43A1D2225A0AC000F3543 /* GameViewController.swift */; };
+		ABA43A212225A0AC000F3543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA43A1F2225A0AC000F3543 /* Main.storyboard */; };
+		ABA43A232225A0AC000F3543 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA439F22225A0A9000F3543 /* GameController.swift */; };
+		ABA43A242225A0AC000F3543 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA439F22225A0A9000F3543 /* GameController.swift */; };
+		ABA43A252225A0AC000F3543 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA439F22225A0A9000F3543 /* GameController.swift */; };
+		ABA43A262225A0AC000F3543 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA439F32225A0A9000F3543 /* art.scnassets */; };
+		ABA43A272225A0AC000F3543 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA439F32225A0A9000F3543 /* art.scnassets */; };
+		ABA43A282225A0AC000F3543 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA439F32225A0A9000F3543 /* art.scnassets */; };
+		ABA43A292225A0AC000F3543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA439F42225A0AC000F3543 /* Assets.xcassets */; };
+		ABA43A2A2225A0AC000F3543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA439F42225A0AC000F3543 /* Assets.xcassets */; };
+		ABA43A2B2225A0AC000F3543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA439F42225A0AC000F3543 /* Assets.xcassets */; };
+		ABBA1D3E2225A50A0059ACCB /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D3D2225A50A0059ACCB /* Story.swift */; };
+		ABBA1D3F2225A50A0059ACCB /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D3D2225A50A0059ACCB /* Story.swift */; };
+		ABBA1D402225A50A0059ACCB /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D3D2225A50A0059ACCB /* Story.swift */; };
+		ABBA1D422225A52A0059ACCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D412225A52A0059ACCB /* Location.swift */; };
+		ABBA1D432225A52A0059ACCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D412225A52A0059ACCB /* Location.swift */; };
+		ABBA1D442225A52A0059ACCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D412225A52A0059ACCB /* Location.swift */; };
+		ABBA1D472225B2500059ACCB /* PlatzspitzLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */; };
+		ABBA1D482225B2500059ACCB /* PlatzspitzLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */; };
+		ABBA1D492225B2500059ACCB /* PlatzspitzLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */; };
+		ABBA1D4B2225B2EF0059ACCB /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */; };
+		ABBA1D4C2225B2EF0059ACCB /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */; };
+		ABBA1D4D2225B2EF0059ACCB /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */; };
+		ABBA1D4F2225B4CA0059ACCB /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */; };
+		ABBA1D502225B4CA0059ACCB /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */; };
+		ABBA1D512225B4CA0059ACCB /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABA439F22225A0A9000F3543 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		ABA439F32225A0A9000F3543 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		ABA439F42225A0AC000F3543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA439F92225A0AC000F3543 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA439FC2225A0AC000F3543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA439FE2225A0AC000F3543 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ABA43A012225A0AC000F3543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA43A042225A0AC000F3543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABA43A062225A0AC000F3543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA43A0B2225A0AC000F3543 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA43A0D2225A0AC000F3543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA43A0F2225A0AC000F3543 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ABA43A122225A0AC000F3543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA43A142225A0AC000F3543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA43A192225A0AC000F3543 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA43A1B2225A0AC000F3543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABA43A1D2225A0AC000F3543 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ABA43A202225A0AC000F3543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABA43A222225A0AC000F3543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBA1D3D2225A50A0059ACCB /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		ABBA1D412225A52A0059ACCB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatzspitzLocation.swift; sourceTree = "<group>"; };
+		ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLocation.swift; sourceTree = "<group>"; };
+		ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA439F62225A0AC000F3543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA43A082225A0AC000F3543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA43A162225A0AC000F3543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA439EC2225A0A8000F3543 = {
+			isa = PBXGroup;
+			children = (
+				ABA439F12225A0A9000F3543 /* TemporalShift Shared */,
+				ABA439FB2225A0AC000F3543 /* TemporalShift iOS */,
+				ABA43A0C2225A0AC000F3543 /* TemporalShift tvOS */,
+				ABA43A1A2225A0AC000F3543 /* TemporalShift macOS */,
+				ABA439FA2225A0AC000F3543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA439F12225A0A9000F3543 /* TemporalShift Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA1D452225A5600059ACCB /* locations */,
+				ABBA1D3C2225A4E90059ACCB /* story */,
+				ABA439F22225A0A9000F3543 /* GameController.swift */,
+				ABA439F32225A0A9000F3543 /* art.scnassets */,
+				ABA439F42225A0AC000F3543 /* Assets.xcassets */,
+			);
+			path = "TemporalShift Shared";
+			sourceTree = "<group>";
+		};
+		ABA439FA2225A0AC000F3543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA439F92225A0AC000F3543 /* TemporalShift.app */,
+				ABA43A0B2225A0AC000F3543 /* TemporalShift.app */,
+				ABA43A192225A0AC000F3543 /* TemporalShift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA439FB2225A0AC000F3543 /* TemporalShift iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABA439FC2225A0AC000F3543 /* AppDelegate.swift */,
+				ABA439FE2225A0AC000F3543 /* GameViewController.swift */,
+				ABA43A002225A0AC000F3543 /* Main.storyboard */,
+				ABA43A032225A0AC000F3543 /* LaunchScreen.storyboard */,
+				ABA43A062225A0AC000F3543 /* Info.plist */,
+			);
+			path = "TemporalShift iOS";
+			sourceTree = "<group>";
+		};
+		ABA43A0C2225A0AC000F3543 /* TemporalShift tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABA43A0D2225A0AC000F3543 /* AppDelegate.swift */,
+				ABA43A0F2225A0AC000F3543 /* GameViewController.swift */,
+				ABA43A112225A0AC000F3543 /* Main.storyboard */,
+				ABA43A142225A0AC000F3543 /* Info.plist */,
+			);
+			path = "TemporalShift tvOS";
+			sourceTree = "<group>";
+		};
+		ABA43A1A2225A0AC000F3543 /* TemporalShift macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABA43A1B2225A0AC000F3543 /* AppDelegate.swift */,
+				ABA43A1D2225A0AC000F3543 /* GameViewController.swift */,
+				ABA43A1F2225A0AC000F3543 /* Main.storyboard */,
+				ABA43A222225A0AC000F3543 /* Info.plist */,
+			);
+			path = "TemporalShift macOS";
+			sourceTree = "<group>";
+		};
+		ABBA1D3C2225A4E90059ACCB /* story */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA1D3D2225A50A0059ACCB /* Story.swift */,
+				ABBA1D412225A52A0059ACCB /* Location.swift */,
+			);
+			path = story;
+			sourceTree = "<group>";
+		};
+		ABBA1D452225A5600059ACCB /* locations */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */,
+				ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */,
+				ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */,
+			);
+			path = locations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA439F82225A0AC000F3543 /* TemporalShift iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA43A2E2225A0AC000F3543 /* Build configuration list for PBXNativeTarget "TemporalShift iOS" */;
+			buildPhases = (
+				ABA439F52225A0AC000F3543 /* Sources */,
+				ABA439F62225A0AC000F3543 /* Frameworks */,
+				ABA439F72225A0AC000F3543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TemporalShift iOS";
+			productName = "TemporalShift iOS";
+			productReference = ABA439F92225A0AC000F3543 /* TemporalShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA43A0A2225A0AC000F3543 /* TemporalShift tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA43A312225A0AC000F3543 /* Build configuration list for PBXNativeTarget "TemporalShift tvOS" */;
+			buildPhases = (
+				ABA43A072225A0AC000F3543 /* Sources */,
+				ABA43A082225A0AC000F3543 /* Frameworks */,
+				ABA43A092225A0AC000F3543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TemporalShift tvOS";
+			productName = "TemporalShift tvOS";
+			productReference = ABA43A0B2225A0AC000F3543 /* TemporalShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA43A182225A0AC000F3543 /* TemporalShift macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA43A342225A0AC000F3543 /* Build configuration list for PBXNativeTarget "TemporalShift macOS" */;
+			buildPhases = (
+				ABA43A152225A0AC000F3543 /* Sources */,
+				ABA43A162225A0AC000F3543 /* Frameworks */,
+				ABA43A172225A0AC000F3543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TemporalShift macOS";
+			productName = "TemporalShift macOS";
+			productReference = ABA43A192225A0AC000F3543 /* TemporalShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA439ED2225A0A8000F3543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Florian Bruggisser";
+				TargetAttributes = {
+					ABA439F82225A0AC000F3543 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ABA43A0A2225A0AC000F3543 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					ABA43A182225A0AC000F3543 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ABA439F02225A0A8000F3543 /* Build configuration list for PBXProject "TemporalShift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA439EC2225A0A8000F3543;
+			productRefGroup = ABA439FA2225A0AC000F3543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA439F82225A0AC000F3543 /* TemporalShift iOS */,
+				ABA43A0A2225A0AC000F3543 /* TemporalShift tvOS */,
+				ABA43A182225A0AC000F3543 /* TemporalShift macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA439F72225A0AC000F3543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA43A022225A0AC000F3543 /* Main.storyboard in Resources */,
+				ABA43A052225A0AC000F3543 /* LaunchScreen.storyboard in Resources */,
+				ABA43A292225A0AC000F3543 /* Assets.xcassets in Resources */,
+				ABA43A262225A0AC000F3543 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA43A092225A0AC000F3543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA43A132225A0AC000F3543 /* Main.storyboard in Resources */,
+				ABA43A2A2225A0AC000F3543 /* Assets.xcassets in Resources */,
+				ABA43A272225A0AC000F3543 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA43A172225A0AC000F3543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA43A212225A0AC000F3543 /* Main.storyboard in Resources */,
+				ABA43A2B2225A0AC000F3543 /* Assets.xcassets in Resources */,
+				ABA43A282225A0AC000F3543 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA439F52225A0AC000F3543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA1D4F2225B4CA0059ACCB /* LocationUtils.swift in Sources */,
+				ABA439FF2225A0AC000F3543 /* GameViewController.swift in Sources */,
+				ABA43A232225A0AC000F3543 /* GameController.swift in Sources */,
+				ABBA1D422225A52A0059ACCB /* Location.swift in Sources */,
+				ABA439FD2225A0AC000F3543 /* AppDelegate.swift in Sources */,
+				ABBA1D3E2225A50A0059ACCB /* Story.swift in Sources */,
+				ABBA1D4B2225B2EF0059ACCB /* BaseLocation.swift in Sources */,
+				ABBA1D472225B2500059ACCB /* PlatzspitzLocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA43A072225A0AC000F3543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA1D502225B4CA0059ACCB /* LocationUtils.swift in Sources */,
+				ABA43A102225A0AC000F3543 /* GameViewController.swift in Sources */,
+				ABA43A242225A0AC000F3543 /* GameController.swift in Sources */,
+				ABBA1D432225A52A0059ACCB /* Location.swift in Sources */,
+				ABA43A0E2225A0AC000F3543 /* AppDelegate.swift in Sources */,
+				ABBA1D3F2225A50A0059ACCB /* Story.swift in Sources */,
+				ABBA1D4C2225B2EF0059ACCB /* BaseLocation.swift in Sources */,
+				ABBA1D482225B2500059ACCB /* PlatzspitzLocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA43A152225A0AC000F3543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBA1D512225B4CA0059ACCB /* LocationUtils.swift in Sources */,
+				ABA43A1E2225A0AC000F3543 /* GameViewController.swift in Sources */,
+				ABA43A252225A0AC000F3543 /* GameController.swift in Sources */,
+				ABBA1D442225A52A0059ACCB /* Location.swift in Sources */,
+				ABA43A1C2225A0AC000F3543 /* AppDelegate.swift in Sources */,
+				ABBA1D402225A50A0059ACCB /* Story.swift in Sources */,
+				ABBA1D4D2225B2EF0059ACCB /* BaseLocation.swift in Sources */,
+				ABBA1D492225B2500059ACCB /* PlatzspitzLocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABA43A002225A0AC000F3543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA43A012225A0AC000F3543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA43A032225A0AC000F3543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA43A042225A0AC000F3543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA43A112225A0AC000F3543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA43A122225A0AC000F3543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABA43A1F2225A0AC000F3543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA43A202225A0AC000F3543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA43A2C2225A0AC000F3543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA43A2D2225A0AC000F3543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABA43A2F2225A0AC000F3543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9K4A7PDPV;
+				INFOPLIST_FILE = "TemporalShift iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
+				PRODUCT_NAME = TemporalShift;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA43A302225A0AC000F3543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9K4A7PDPV;
+				INFOPLIST_FILE = "TemporalShift iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
+				PRODUCT_NAME = TemporalShift;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA43A322225A0AC000F3543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9K4A7PDPV;
+				INFOPLIST_FILE = "TemporalShift tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
+				PRODUCT_NAME = TemporalShift;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		ABA43A332225A0AC000F3543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G9K4A7PDPV;
+				INFOPLIST_FILE = "TemporalShift tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
+				PRODUCT_NAME = TemporalShift;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA43A352225A0AC000F3543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G9K4A7PDPV;
+				INFOPLIST_FILE = "TemporalShift macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
+				PRODUCT_NAME = TemporalShift;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		ABA43A362225A0AC000F3543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G9K4A7PDPV;
+				INFOPLIST_FILE = "TemporalShift macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
+				PRODUCT_NAME = TemporalShift;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA439F02225A0A8000F3543 /* Build configuration list for PBXProject "TemporalShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA43A2C2225A0AC000F3543 /* Debug */,
+				ABA43A2D2225A0AC000F3543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA43A2E2225A0AC000F3543 /* Build configuration list for PBXNativeTarget "TemporalShift iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA43A2F2225A0AC000F3543 /* Debug */,
+				ABA43A302225A0AC000F3543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA43A312225A0AC000F3543 /* Build configuration list for PBXNativeTarget "TemporalShift tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA43A322225A0AC000F3543 /* Debug */,
+				ABA43A332225A0AC000F3543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA43A342225A0AC000F3543 /* Build configuration list for PBXNativeTarget "TemporalShift macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA43A352225A0AC000F3543 /* Debug */,
+				ABA43A362225A0AC000F3543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA439ED2225A0A8000F3543 /* Project object */;
+}
