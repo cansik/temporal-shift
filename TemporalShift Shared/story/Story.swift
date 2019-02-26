@@ -16,7 +16,7 @@ class Story
     
     var currentLocation : Location {
         get {
-            return locations[locationIndex]
+            return locations[locationIndex % locations.count]
         }
     }
     

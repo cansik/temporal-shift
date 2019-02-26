@@ -53,6 +53,7 @@ class GameController: NSObject, SCNSceneRendererDelegate {
     }
     
     func highlightNodes(atPoint point: CGPoint) {
+        /*
         let hitResults = self.sceneRenderer.hitTest(point, options: [:])
         for result in hitResults {
             // get its material
@@ -78,6 +79,8 @@ class GameController: NSObject, SCNSceneRendererDelegate {
             
             SCNTransaction.commit()
         }
+ */
+        changeLocation()
     }
     
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
