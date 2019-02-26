@@ -24,5 +24,9 @@ protocol Location
         get
     }
     
-    func setup()
+    var onEnded : Event<Location> {
+        get
+    }
+    
+    func setup(sceneRenderer : SCNView)
 }

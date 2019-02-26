@@ -26,7 +26,10 @@ class BaseLocation : Location
     
     var hud: SKScene
     
-    func setup() {
-        // do nothing
+    var onEnded : Event<Location> = Event()
+    
+    func setup(sceneRenderer : SCNView) {
+        // resize hud
+        self.hud.size = sceneRenderer.frame.size
     }
 }

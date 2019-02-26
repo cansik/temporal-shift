@@ -19,23 +19,37 @@ import SceneKit
 #endif
 
 class GameController: NSObject, SCNSceneRendererDelegate {
-    let sceneRenderer: SCNSceneRenderer
-    let story = Story(locations: [PlatzspitzLocation()])
+    let sceneRenderer: SCNView
     
-    init(sceneRenderer renderer: SCNSceneRenderer) {
+    let story = Story(locations: [
+        LidarLocation(name: "Platzspitz", cloudName: "Platzspitz_5m"),
+        LidarLocation(name: "Seepromenade", cloudName: "Seepromenade_2m")
+        ])
+    
+    init(sceneRenderer renderer: SCNView) {
         sceneRenderer = renderer
         super.init()
         
         sceneRenderer.delegate = self
         
-        /*
-        if let ship = scene.rootNode.childNode(withName: "ship", recursively: true) {
-            ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
-        }
-        */
+        loadLocation(location: story.currentLocation)
+    }
+    
+    func loadLocation(location : Location) {
+        location.setup(sceneRenderer: sceneRenderer)
         
-        story.currentLocation.setup()
-        sceneRenderer.scene = story.currentLocation.scene
+        sceneRenderer.scene = location.scene
+        sceneRenderer.overlaySKScene = location.hud
+        
+        // add ended handler
+        location.onEnded.addHandler { (Location) in
+            self.loadLocation(location: self.story.nextLocation())
+        }
+    }
+    
+    func changeLocation()
+    {
+        loadLocation(location: story.nextLocation())
     }
     
     func highlightNodes(atPoint point: CGPoint) {

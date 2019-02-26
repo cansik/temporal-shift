@@ -24,8 +24,9 @@ class Story
         self.locations = locations
     }
     
-    public func nextLocation()
+    public func nextLocation() -> Location
     {
         locationIndex += 1
+        return currentLocation
     }
 }

@@ -32,15 +32,18 @@
 		ABBA1D422225A52A0059ACCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D412225A52A0059ACCB /* Location.swift */; };
 		ABBA1D432225A52A0059ACCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D412225A52A0059ACCB /* Location.swift */; };
 		ABBA1D442225A52A0059ACCB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D412225A52A0059ACCB /* Location.swift */; };
-		ABBA1D472225B2500059ACCB /* PlatzspitzLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */; };
-		ABBA1D482225B2500059ACCB /* PlatzspitzLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */; };
-		ABBA1D492225B2500059ACCB /* PlatzspitzLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */; };
 		ABBA1D4B2225B2EF0059ACCB /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */; };
 		ABBA1D4C2225B2EF0059ACCB /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */; };
 		ABBA1D4D2225B2EF0059ACCB /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */; };
 		ABBA1D4F2225B4CA0059ACCB /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */; };
 		ABBA1D502225B4CA0059ACCB /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */; };
 		ABBA1D512225B4CA0059ACCB /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */; };
+		ABBA1D742225BB010059ACCB /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D732225BB010059ACCB /* Event.swift */; };
+		ABBA1D752225BB010059ACCB /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D732225BB010059ACCB /* Event.swift */; };
+		ABBA1D762225BB010059ACCB /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D732225BB010059ACCB /* Event.swift */; };
+		ABBA1D782225BCAC0059ACCB /* LidarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D772225BCAC0059ACCB /* LidarLocation.swift */; };
+		ABBA1D792225BCAC0059ACCB /* LidarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D772225BCAC0059ACCB /* LidarLocation.swift */; };
+		ABBA1D7A2225BCAC0059ACCB /* LidarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA1D772225BCAC0059ACCB /* LidarLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,9 +68,10 @@
 		ABA43A222225A0AC000F3543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABBA1D3D2225A50A0059ACCB /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		ABBA1D412225A52A0059ACCB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatzspitzLocation.swift; sourceTree = "<group>"; };
 		ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLocation.swift; sourceTree = "<group>"; };
 		ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUtils.swift; sourceTree = "<group>"; };
+		ABBA1D732225BB010059ACCB /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		ABBA1D772225BCAC0059ACCB /* LidarLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LidarLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		ABA439F12225A0A9000F3543 /* TemporalShift Shared */ = {
 			isa = PBXGroup;
 			children = (
+				ABBA1D722225BAC80059ACCB /* model */,
 				ABBA1D452225A5600059ACCB /* locations */,
 				ABBA1D3C2225A4E90059ACCB /* story */,
 				ABA439F22225A0A9000F3543 /* GameController.swift */,
@@ -166,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				ABBA1D3D2225A50A0059ACCB /* Story.swift */,
-				ABBA1D412225A52A0059ACCB /* Location.swift */,
 			);
 			path = story;
 			sourceTree = "<group>";
@@ -174,11 +178,20 @@
 		ABBA1D452225A5600059ACCB /* locations */ = {
 			isa = PBXGroup;
 			children = (
-				ABBA1D462225B2500059ACCB /* PlatzspitzLocation.swift */,
+				ABBA1D412225A52A0059ACCB /* Location.swift */,
+				ABBA1D772225BCAC0059ACCB /* LidarLocation.swift */,
 				ABBA1D4A2225B2EF0059ACCB /* BaseLocation.swift */,
 				ABBA1D4E2225B4CA0059ACCB /* LocationUtils.swift */,
 			);
 			path = locations;
+			sourceTree = "<group>";
+		};
+		ABBA1D722225BAC80059ACCB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				ABBA1D732225BB010059ACCB /* Event.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,13 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBA1D4F2225B4CA0059ACCB /* LocationUtils.swift in Sources */,
+				ABBA1D742225BB010059ACCB /* Event.swift in Sources */,
 				ABA439FF2225A0AC000F3543 /* GameViewController.swift in Sources */,
 				ABA43A232225A0AC000F3543 /* GameController.swift in Sources */,
 				ABBA1D422225A52A0059ACCB /* Location.swift in Sources */,
 				ABA439FD2225A0AC000F3543 /* AppDelegate.swift in Sources */,
+				ABBA1D782225BCAC0059ACCB /* LidarLocation.swift in Sources */,
 				ABBA1D3E2225A50A0059ACCB /* Story.swift in Sources */,
 				ABBA1D4B2225B2EF0059ACCB /* BaseLocation.swift in Sources */,
-				ABBA1D472225B2500059ACCB /* PlatzspitzLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,13 +345,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBA1D502225B4CA0059ACCB /* LocationUtils.swift in Sources */,
+				ABBA1D752225BB010059ACCB /* Event.swift in Sources */,
 				ABA43A102225A0AC000F3543 /* GameViewController.swift in Sources */,
 				ABA43A242225A0AC000F3543 /* GameController.swift in Sources */,
 				ABBA1D432225A52A0059ACCB /* Location.swift in Sources */,
 				ABA43A0E2225A0AC000F3543 /* AppDelegate.swift in Sources */,
+				ABBA1D792225BCAC0059ACCB /* LidarLocation.swift in Sources */,
 				ABBA1D3F2225A50A0059ACCB /* Story.swift in Sources */,
 				ABBA1D4C2225B2EF0059ACCB /* BaseLocation.swift in Sources */,
-				ABBA1D482225B2500059ACCB /* PlatzspitzLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,13 +361,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBA1D512225B4CA0059ACCB /* LocationUtils.swift in Sources */,
+				ABBA1D762225BB010059ACCB /* Event.swift in Sources */,
 				ABA43A1E2225A0AC000F3543 /* GameViewController.swift in Sources */,
 				ABA43A252225A0AC000F3543 /* GameController.swift in Sources */,
 				ABBA1D442225A52A0059ACCB /* Location.swift in Sources */,
 				ABA43A1C2225A0AC000F3543 /* AppDelegate.swift in Sources */,
+				ABBA1D7A2225BCAC0059ACCB /* LidarLocation.swift in Sources */,
 				ABBA1D402225A50A0059ACCB /* Story.swift in Sources */,
 				ABBA1D4D2225B2EF0059ACCB /* BaseLocation.swift in Sources */,
-				ABBA1D492225B2500059ACCB /* PlatzspitzLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
