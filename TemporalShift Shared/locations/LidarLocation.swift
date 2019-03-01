@@ -40,6 +40,18 @@ class LidarLocation : BaseLocation {
         // load pointcloud and add it to scene
         scene.rootNode.addChildNode(loadCloud(cloudName: cloudName))
         
+        let cameraNode = SCNNode()
+        cameraNode.camera = SCNCamera()
+        
+        scene.rootNode.addChildNode(cameraNode)
+        
+        // setup camera
+        let camera = cameraNode.camera!
+        camera.usesOrthographicProjection = true
+        camera.orthographicScale = 9
+        camera.zNear = 0.005
+        camera.zFar = 5000
+        
         setupHud(frameSize: sceneRenderer.frame.size)
     }
 }

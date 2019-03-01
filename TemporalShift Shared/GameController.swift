@@ -36,6 +36,7 @@ class GameController: NSObject, SCNSceneRendererDelegate {
         
         sceneRenderer.scene = location.scene
         sceneRenderer.overlaySKScene = location.hud
+        sceneRenderer.overlaySKScene!.isUserInteractionEnabled = false
         
         // add ended handler
         location.onEnded.addHandler { (Location) in
