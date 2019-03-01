@@ -49,34 +49,7 @@ class GameController: NSObject, SCNSceneRendererDelegate {
         loadLocation(location: story.nextLocation())
     }
     
-    func highlightNodes(atPoint point: CGPoint) {
-        /*
-        let hitResults = self.sceneRenderer.hitTest(point, options: [:])
-        for result in hitResults {
-            // get its material
-            guard let material = result.node.geometry?.firstMaterial else {
-                return
-            }
-            
-            // highlight it
-            SCNTransaction.begin()
-            SCNTransaction.animationDuration = 0.5
-            
-            // on completion - unhighlight
-            SCNTransaction.completionBlock = {
-                SCNTransaction.begin()
-                SCNTransaction.animationDuration = 0.5
-                
-                material.emission.contents = SCNColor.black
-                
-                SCNTransaction.commit()
-            }
-            
-            material.emission.contents = SCNColor.red
-            
-            SCNTransaction.commit()
-        }
- */
+    func onChangeLocationRequested(atPoint point: CGPoint) {
         changeLocation()
     }
     

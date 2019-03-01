@@ -42,7 +42,7 @@ class GameViewController: UIViewController {
     func handleTap(_ gestureRecognizer: UIGestureRecognizer) {
         // Highlight the tapped nodes
         let p = gestureRecognizer.location(in: gameView)
-        gameController.highlightNodes(atPoint: p)
+        gameController.onChangeLocationRequested(atPoint: p)
     }
     
     override var shouldAutorotate: Bool {
