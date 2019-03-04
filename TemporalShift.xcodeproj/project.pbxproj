@@ -7,89 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB33719422297C18005C0CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33719322297C18005C0CD7 /* AppDelegate.swift */; };
-		AB33719622297C18005C0CD7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33719522297C18005C0CD7 /* GameViewController.swift */; };
-		AB33719922297C18005C0CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB33719722297C18005C0CD7 /* Main.storyboard */; };
-		AB33719C22297C18005C0CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB33719A22297C18005C0CD7 /* LaunchScreen.storyboard */; };
-		AB3371A522297C18005C0CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3371A422297C18005C0CD7 /* AppDelegate.swift */; };
-		AB3371A722297C18005C0CD7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3371A622297C18005C0CD7 /* GameViewController.swift */; };
-		AB3371AA22297C18005C0CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3371A822297C18005C0CD7 /* Main.storyboard */; };
-		AB3371B322297C18005C0CD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3371B222297C18005C0CD7 /* AppDelegate.swift */; };
-		AB3371B522297C18005C0CD7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3371B422297C18005C0CD7 /* GameViewController.swift */; };
-		AB3371B822297C18005C0CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3371B622297C18005C0CD7 /* Main.storyboard */; };
-		AB3371BA22297C18005C0CD7 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33718922297C14005C0CD7 /* GameController.swift */; };
-		AB3371BB22297C18005C0CD7 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33718922297C14005C0CD7 /* GameController.swift */; };
-		AB3371BC22297C18005C0CD7 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33718922297C14005C0CD7 /* GameController.swift */; };
-		AB3371BD22297C18005C0CD7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AB33718A22297C14005C0CD7 /* art.scnassets */; };
-		AB3371BE22297C18005C0CD7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AB33718A22297C14005C0CD7 /* art.scnassets */; };
-		AB3371BF22297C18005C0CD7 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AB33718A22297C14005C0CD7 /* art.scnassets */; };
-		AB3371C022297C18005C0CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB33718B22297C18005C0CD7 /* Assets.xcassets */; };
-		AB3371C122297C18005C0CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB33718B22297C18005C0CD7 /* Assets.xcassets */; };
-		AB3371C222297C18005C0CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB33718B22297C18005C0CD7 /* Assets.xcassets */; };
-		AB3E56E322297D7C00616943 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5022297C80008947F8 /* Location.swift */; };
-		AB3E56E422297D7C00616943 /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5122297C80008947F8 /* LocationUtils.swift */; };
-		AB3E56E522297D7C00616943 /* LidarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5222297C80008947F8 /* LidarLocation.swift */; };
-		AB3E56E622297D7C00616943 /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5322297C80008947F8 /* BaseLocation.swift */; };
-		AB3E56E722297D7C00616943 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA4C22297C80008947F8 /* Event.swift */; };
-		AB3E56E822297D7C00616943 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA4E22297C80008947F8 /* Story.swift */; };
-		AB3E56E922297D7C00616943 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5022297C80008947F8 /* Location.swift */; };
-		AB3E56EA22297D7C00616943 /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5122297C80008947F8 /* LocationUtils.swift */; };
-		AB3E56EB22297D7C00616943 /* LidarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5222297C80008947F8 /* LidarLocation.swift */; };
-		AB3E56EC22297D7C00616943 /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5322297C80008947F8 /* BaseLocation.swift */; };
-		AB3E56ED22297D7C00616943 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA4C22297C80008947F8 /* Event.swift */; };
-		AB3E56EE22297D7C00616943 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA4E22297C80008947F8 /* Story.swift */; };
-		AB9CDA5422297C80008947F8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA4C22297C80008947F8 /* Event.swift */; };
-		AB9CDA5522297C80008947F8 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA4E22297C80008947F8 /* Story.swift */; };
-		AB9CDA5622297C80008947F8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5022297C80008947F8 /* Location.swift */; };
-		AB9CDA5722297C80008947F8 /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5122297C80008947F8 /* LocationUtils.swift */; };
-		AB9CDA5822297C80008947F8 /* LidarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5222297C80008947F8 /* LidarLocation.swift */; };
-		AB9CDA5922297C80008947F8 /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CDA5322297C80008947F8 /* BaseLocation.swift */; };
+		ABB5DF82222DC017009D4058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF81222DC017009D4058 /* AppDelegate.swift */; };
+		ABB5DF84222DC017009D4058 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DF83222DC017009D4058 /* art.scnassets */; };
+		ABB5DF86222DC017009D4058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF85222DC017009D4058 /* ViewController.swift */; };
+		ABB5DF89222DC017009D4058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DF87222DC017009D4058 /* Main.storyboard */; };
+		ABB5DF8B222DC019009D4058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DF8A222DC019009D4058 /* Assets.xcassets */; };
+		ABB5DF8E222DC019009D4058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DF8C222DC019009D4058 /* LaunchScreen.storyboard */; };
+		ABB5DF9F222DC054009D4058 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF96222DC054009D4058 /* Event.swift */; };
+		ABB5DFA0222DC054009D4058 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF99222DC054009D4058 /* Story.swift */; };
+		ABB5DFA1222DC054009D4058 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF9B222DC054009D4058 /* Location.swift */; };
+		ABB5DFA2222DC054009D4058 /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF9C222DC054009D4058 /* LocationUtils.swift */; };
+		ABB5DFA3222DC054009D4058 /* LidarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF9D222DC054009D4058 /* LidarLocation.swift */; };
+		ABB5DFA4222DC054009D4058 /* BaseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF9E222DC054009D4058 /* BaseLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB33718922297C14005C0CD7 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
-		AB33718A22297C14005C0CD7 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		AB33718B22297C18005C0CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB33719022297C18005C0CD7 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB33719322297C18005C0CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB33719522297C18005C0CD7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		AB33719822297C18005C0CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB33719B22297C18005C0CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AB33719D22297C18005C0CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB3371A222297C18005C0CD7 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB3371A422297C18005C0CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB3371A622297C18005C0CD7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		AB3371A922297C18005C0CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB3371AB22297C18005C0CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB3371B022297C18005C0CD7 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB3371B222297C18005C0CD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB3371B422297C18005C0CD7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		AB3371B722297C18005C0CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB3371B922297C18005C0CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB9CDA4C22297C80008947F8 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		AB9CDA4E22297C80008947F8 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
-		AB9CDA5022297C80008947F8 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		AB9CDA5122297C80008947F8 /* LocationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUtils.swift; sourceTree = "<group>"; };
-		AB9CDA5222297C80008947F8 /* LidarLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LidarLocation.swift; sourceTree = "<group>"; };
-		AB9CDA5322297C80008947F8 /* BaseLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLocation.swift; sourceTree = "<group>"; };
+		ABB5DF7E222DC017009D4058 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB5DF81222DC017009D4058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABB5DF83222DC017009D4058 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		ABB5DF85222DC017009D4058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABB5DF88222DC017009D4058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB5DF8A222DC019009D4058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB5DF8D222DC019009D4058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB5DF8F222DC019009D4058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB5DF96222DC054009D4058 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		ABB5DF99222DC054009D4058 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		ABB5DF9B222DC054009D4058 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		ABB5DF9C222DC054009D4058 /* LocationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUtils.swift; sourceTree = "<group>"; };
+		ABB5DF9D222DC054009D4058 /* LidarLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LidarLocation.swift; sourceTree = "<group>"; };
+		ABB5DF9E222DC054009D4058 /* BaseLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB33718D22297C18005C0CD7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB33719F22297C18005C0CD7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB3371AD22297C18005C0CD7 /* Frameworks */ = {
+		ABB5DF7B222DC017009D4058 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,105 +49,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB33718322297C14005C0CD7 = {
+		ABB5DF75222DC017009D4058 = {
 			isa = PBXGroup;
 			children = (
-				AB33718822297C14005C0CD7 /* TemporalShift Shared */,
-				AB33719222297C18005C0CD7 /* TemporalShift iOS */,
-				AB3371A322297C18005C0CD7 /* TemporalShift tvOS */,
-				AB3371B122297C18005C0CD7 /* TemporalShift macOS */,
-				AB33719122297C18005C0CD7 /* Products */,
+				ABB5DF80222DC017009D4058 /* TemporalShift */,
+				ABB5DF7F222DC017009D4058 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB33718822297C14005C0CD7 /* TemporalShift Shared */ = {
+		ABB5DF7F222DC017009D4058 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB3E56EF2229806300616943 /* ui */,
-				AB9CDA4F22297C80008947F8 /* locations */,
-				AB9CDA4B22297C80008947F8 /* model */,
-				AB9CDA4D22297C80008947F8 /* story */,
-				AB33718922297C14005C0CD7 /* GameController.swift */,
-				AB33718A22297C14005C0CD7 /* art.scnassets */,
-				AB33718B22297C18005C0CD7 /* Assets.xcassets */,
-			);
-			path = "TemporalShift Shared";
-			sourceTree = "<group>";
-		};
-		AB33719122297C18005C0CD7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AB33719022297C18005C0CD7 /* TemporalShift.app */,
-				AB3371A222297C18005C0CD7 /* TemporalShift.app */,
-				AB3371B022297C18005C0CD7 /* TemporalShift.app */,
+				ABB5DF7E222DC017009D4058 /* TemporalShift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB33719222297C18005C0CD7 /* TemporalShift iOS */ = {
+		ABB5DF80222DC017009D4058 /* TemporalShift */ = {
 			isa = PBXGroup;
 			children = (
-				AB33719322297C18005C0CD7 /* AppDelegate.swift */,
-				AB33719522297C18005C0CD7 /* GameViewController.swift */,
-				AB33719722297C18005C0CD7 /* Main.storyboard */,
-				AB33719A22297C18005C0CD7 /* LaunchScreen.storyboard */,
-				AB33719D22297C18005C0CD7 /* Info.plist */,
+				ABB5DF9A222DC054009D4058 /* locations */,
+				ABB5DF95222DC054009D4058 /* model */,
+				ABB5DF98222DC054009D4058 /* story */,
+				ABB5DF97222DC054009D4058 /* ui */,
+				ABB5DF81222DC017009D4058 /* AppDelegate.swift */,
+				ABB5DF83222DC017009D4058 /* art.scnassets */,
+				ABB5DF85222DC017009D4058 /* ViewController.swift */,
+				ABB5DF87222DC017009D4058 /* Main.storyboard */,
+				ABB5DF8A222DC019009D4058 /* Assets.xcassets */,
+				ABB5DF8C222DC019009D4058 /* LaunchScreen.storyboard */,
+				ABB5DF8F222DC019009D4058 /* Info.plist */,
 			);
-			path = "TemporalShift iOS";
+			path = TemporalShift;
 			sourceTree = "<group>";
 		};
-		AB3371A322297C18005C0CD7 /* TemporalShift tvOS */ = {
+		ABB5DF95222DC054009D4058 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				AB3371A422297C18005C0CD7 /* AppDelegate.swift */,
-				AB3371A622297C18005C0CD7 /* GameViewController.swift */,
-				AB3371A822297C18005C0CD7 /* Main.storyboard */,
-				AB3371AB22297C18005C0CD7 /* Info.plist */,
+				ABB5DF96222DC054009D4058 /* Event.swift */,
 			);
-			path = "TemporalShift tvOS";
+			path = model;
 			sourceTree = "<group>";
 		};
-		AB3371B122297C18005C0CD7 /* TemporalShift macOS */ = {
-			isa = PBXGroup;
-			children = (
-				AB3371B222297C18005C0CD7 /* AppDelegate.swift */,
-				AB3371B422297C18005C0CD7 /* GameViewController.swift */,
-				AB3371B622297C18005C0CD7 /* Main.storyboard */,
-				AB3371B922297C18005C0CD7 /* Info.plist */,
-			);
-			path = "TemporalShift macOS";
-			sourceTree = "<group>";
-		};
-		AB3E56EF2229806300616943 /* ui */ = {
+		ABB5DF97222DC054009D4058 /* ui */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ui;
 			sourceTree = "<group>";
 		};
-		AB9CDA4B22297C80008947F8 /* model */ = {
+		ABB5DF98222DC054009D4058 /* story */ = {
 			isa = PBXGroup;
 			children = (
-				AB9CDA4C22297C80008947F8 /* Event.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		AB9CDA4D22297C80008947F8 /* story */ = {
-			isa = PBXGroup;
-			children = (
-				AB9CDA4E22297C80008947F8 /* Story.swift */,
+				ABB5DF99222DC054009D4058 /* Story.swift */,
 			);
 			path = story;
 			sourceTree = "<group>";
 		};
-		AB9CDA4F22297C80008947F8 /* locations */ = {
+		ABB5DF9A222DC054009D4058 /* locations */ = {
 			isa = PBXGroup;
 			children = (
-				AB9CDA5022297C80008947F8 /* Location.swift */,
-				AB9CDA5122297C80008947F8 /* LocationUtils.swift */,
-				AB9CDA5222297C80008947F8 /* LidarLocation.swift */,
-				AB9CDA5322297C80008947F8 /* BaseLocation.swift */,
+				ABB5DF9B222DC054009D4058 /* Location.swift */,
+				ABB5DF9C222DC054009D4058 /* LocationUtils.swift */,
+				ABB5DF9D222DC054009D4058 /* LidarLocation.swift */,
+				ABB5DF9E222DC054009D4058 /* BaseLocation.swift */,
 			);
 			path = locations;
 			sourceTree = "<group>";
@@ -205,79 +120,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB33718F22297C18005C0CD7 /* TemporalShift iOS */ = {
+		ABB5DF7D222DC017009D4058 /* TemporalShift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB3371C522297C18005C0CD7 /* Build configuration list for PBXNativeTarget "TemporalShift iOS" */;
+			buildConfigurationList = ABB5DF92222DC019009D4058 /* Build configuration list for PBXNativeTarget "TemporalShift" */;
 			buildPhases = (
-				AB33718C22297C18005C0CD7 /* Sources */,
-				AB33718D22297C18005C0CD7 /* Frameworks */,
-				AB33718E22297C18005C0CD7 /* Resources */,
+				ABB5DF7A222DC017009D4058 /* Sources */,
+				ABB5DF7B222DC017009D4058 /* Frameworks */,
+				ABB5DF7C222DC017009D4058 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "TemporalShift iOS";
-			productName = "TemporalShift iOS";
-			productReference = AB33719022297C18005C0CD7 /* TemporalShift.app */;
-			productType = "com.apple.product-type.application";
-		};
-		AB3371A122297C18005C0CD7 /* TemporalShift tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB3371C822297C18005C0CD7 /* Build configuration list for PBXNativeTarget "TemporalShift tvOS" */;
-			buildPhases = (
-				AB33719E22297C18005C0CD7 /* Sources */,
-				AB33719F22297C18005C0CD7 /* Frameworks */,
-				AB3371A022297C18005C0CD7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TemporalShift tvOS";
-			productName = "TemporalShift tvOS";
-			productReference = AB3371A222297C18005C0CD7 /* TemporalShift.app */;
-			productType = "com.apple.product-type.application";
-		};
-		AB3371AF22297C18005C0CD7 /* TemporalShift macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB3371CB22297C18005C0CD7 /* Build configuration list for PBXNativeTarget "TemporalShift macOS" */;
-			buildPhases = (
-				AB3371AC22297C18005C0CD7 /* Sources */,
-				AB3371AD22297C18005C0CD7 /* Frameworks */,
-				AB3371AE22297C18005C0CD7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TemporalShift macOS";
-			productName = "TemporalShift macOS";
-			productReference = AB3371B022297C18005C0CD7 /* TemporalShift.app */;
+			name = TemporalShift;
+			productName = TemporalShift;
+			productReference = ABB5DF7E222DC017009D4058 /* TemporalShift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB33718422297C14005C0CD7 /* Project object */ = {
+		ABB5DF76222DC017009D4058 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Florian Bruggisser";
 				TargetAttributes = {
-					AB33718F22297C18005C0CD7 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					AB3371A122297C18005C0CD7 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					AB3371AF22297C18005C0CD7 = {
+					ABB5DF7D222DC017009D4058 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = AB33718722297C14005C0CD7 /* Build configuration list for PBXProject "TemporalShift" */;
+			buildConfigurationList = ABB5DF79222DC017009D4058 /* Build configuration list for PBXProject "TemporalShift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -285,140 +160,69 @@
 				en,
 				Base,
 			);
-			mainGroup = AB33718322297C14005C0CD7;
-			productRefGroup = AB33719122297C18005C0CD7 /* Products */;
+			mainGroup = ABB5DF75222DC017009D4058;
+			productRefGroup = ABB5DF7F222DC017009D4058 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB33718F22297C18005C0CD7 /* TemporalShift iOS */,
-				AB3371A122297C18005C0CD7 /* TemporalShift tvOS */,
-				AB3371AF22297C18005C0CD7 /* TemporalShift macOS */,
+				ABB5DF7D222DC017009D4058 /* TemporalShift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB33718E22297C18005C0CD7 /* Resources */ = {
+		ABB5DF7C222DC017009D4058 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB33719922297C18005C0CD7 /* Main.storyboard in Resources */,
-				AB33719C22297C18005C0CD7 /* LaunchScreen.storyboard in Resources */,
-				AB3371C022297C18005C0CD7 /* Assets.xcassets in Resources */,
-				AB3371BD22297C18005C0CD7 /* art.scnassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB3371A022297C18005C0CD7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB3371AA22297C18005C0CD7 /* Main.storyboard in Resources */,
-				AB3371C122297C18005C0CD7 /* Assets.xcassets in Resources */,
-				AB3371BE22297C18005C0CD7 /* art.scnassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB3371AE22297C18005C0CD7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB3371B822297C18005C0CD7 /* Main.storyboard in Resources */,
-				AB3371C222297C18005C0CD7 /* Assets.xcassets in Resources */,
-				AB3371BF22297C18005C0CD7 /* art.scnassets in Resources */,
+				ABB5DF84222DC017009D4058 /* art.scnassets in Resources */,
+				ABB5DF8E222DC019009D4058 /* LaunchScreen.storyboard in Resources */,
+				ABB5DF8B222DC019009D4058 /* Assets.xcassets in Resources */,
+				ABB5DF89222DC017009D4058 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB33718C22297C18005C0CD7 /* Sources */ = {
+		ABB5DF7A222DC017009D4058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9CDA5422297C80008947F8 /* Event.swift in Sources */,
-				AB33719622297C18005C0CD7 /* GameViewController.swift in Sources */,
-				AB9CDA5722297C80008947F8 /* LocationUtils.swift in Sources */,
-				AB9CDA5822297C80008947F8 /* LidarLocation.swift in Sources */,
-				AB9CDA5922297C80008947F8 /* BaseLocation.swift in Sources */,
-				AB3371BA22297C18005C0CD7 /* GameController.swift in Sources */,
-				AB33719422297C18005C0CD7 /* AppDelegate.swift in Sources */,
-				AB9CDA5622297C80008947F8 /* Location.swift in Sources */,
-				AB9CDA5522297C80008947F8 /* Story.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB33719E22297C18005C0CD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB3E56E722297D7C00616943 /* Event.swift in Sources */,
-				AB3371A722297C18005C0CD7 /* GameViewController.swift in Sources */,
-				AB3371BB22297C18005C0CD7 /* GameController.swift in Sources */,
-				AB3E56E322297D7C00616943 /* Location.swift in Sources */,
-				AB3E56E522297D7C00616943 /* LidarLocation.swift in Sources */,
-				AB3371A522297C18005C0CD7 /* AppDelegate.swift in Sources */,
-				AB3E56E622297D7C00616943 /* BaseLocation.swift in Sources */,
-				AB3E56E422297D7C00616943 /* LocationUtils.swift in Sources */,
-				AB3E56E822297D7C00616943 /* Story.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB3371AC22297C18005C0CD7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB3E56ED22297D7C00616943 /* Event.swift in Sources */,
-				AB3371B522297C18005C0CD7 /* GameViewController.swift in Sources */,
-				AB3371BC22297C18005C0CD7 /* GameController.swift in Sources */,
-				AB3E56E922297D7C00616943 /* Location.swift in Sources */,
-				AB3E56EB22297D7C00616943 /* LidarLocation.swift in Sources */,
-				AB3371B322297C18005C0CD7 /* AppDelegate.swift in Sources */,
-				AB3E56EC22297D7C00616943 /* BaseLocation.swift in Sources */,
-				AB3E56EA22297D7C00616943 /* LocationUtils.swift in Sources */,
-				AB3E56EE22297D7C00616943 /* Story.swift in Sources */,
+				ABB5DFA3222DC054009D4058 /* LidarLocation.swift in Sources */,
+				ABB5DFA4222DC054009D4058 /* BaseLocation.swift in Sources */,
+				ABB5DFA2222DC054009D4058 /* LocationUtils.swift in Sources */,
+				ABB5DF86222DC017009D4058 /* ViewController.swift in Sources */,
+				ABB5DF9F222DC054009D4058 /* Event.swift in Sources */,
+				ABB5DFA1222DC054009D4058 /* Location.swift in Sources */,
+				ABB5DF82222DC017009D4058 /* AppDelegate.swift in Sources */,
+				ABB5DFA0222DC054009D4058 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB33719722297C18005C0CD7 /* Main.storyboard */ = {
+		ABB5DF87222DC017009D4058 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB33719822297C18005C0CD7 /* Base */,
+				ABB5DF88222DC017009D4058 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AB33719A22297C18005C0CD7 /* LaunchScreen.storyboard */ = {
+		ABB5DF8C222DC019009D4058 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AB33719B22297C18005C0CD7 /* Base */,
+				ABB5DF8D222DC019009D4058 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		AB3371A822297C18005C0CD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB3371A922297C18005C0CD7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AB3371B622297C18005C0CD7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB3371B722297C18005C0CD7 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AB3371C322297C18005C0CD7 /* Debug */ = {
+		ABB5DF90222DC019009D4058 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -450,6 +254,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -468,15 +273,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		AB3371C422297C18005C0CD7 /* Release */ = {
+		ABB5DF91222DC019009D4058 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -508,6 +315,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -520,181 +328,74 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AB3371C622297C18005C0CD7 /* Debug */ = {
+		ABB5DF93222DC019009D4058 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9K4A7PDPV;
-				INFOPLIST_FILE = "TemporalShift iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				INFOPLIST_FILE = TemporalShift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
-				PRODUCT_NAME = TemporalShift;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AB3371C722297C18005C0CD7 /* Release */ = {
+		ABB5DF94222DC019009D4058 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9K4A7PDPV;
-				INFOPLIST_FILE = "TemporalShift iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				INFOPLIST_FILE = TemporalShift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
-				PRODUCT_NAME = TemporalShift;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AB3371C922297C18005C0CD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9K4A7PDPV;
-				INFOPLIST_FILE = "TemporalShift tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
-				PRODUCT_NAME = TemporalShift;
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.1;
-			};
-			name = Debug;
-		};
-		AB3371CA22297C18005C0CD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G9K4A7PDPV;
-				INFOPLIST_FILE = "TemporalShift tvOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
-				PRODUCT_NAME = TemporalShift;
-				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 12.1;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AB3371CC22297C18005C0CD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = G9K4A7PDPV;
-				INFOPLIST_FILE = "TemporalShift macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
-				PRODUCT_NAME = TemporalShift;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		AB3371CD22297C18005C0CD7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = G9K4A7PDPV;
-				INFOPLIST_FILE = "TemporalShift macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
-				PRODUCT_NAME = TemporalShift;
-				SDKROOT = macosx;
-				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB33718722297C14005C0CD7 /* Build configuration list for PBXProject "TemporalShift" */ = {
+		ABB5DF79222DC017009D4058 /* Build configuration list for PBXProject "TemporalShift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB3371C322297C18005C0CD7 /* Debug */,
-				AB3371C422297C18005C0CD7 /* Release */,
+				ABB5DF90222DC019009D4058 /* Debug */,
+				ABB5DF91222DC019009D4058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB3371C522297C18005C0CD7 /* Build configuration list for PBXNativeTarget "TemporalShift iOS" */ = {
+		ABB5DF92222DC019009D4058 /* Build configuration list for PBXNativeTarget "TemporalShift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB3371C622297C18005C0CD7 /* Debug */,
-				AB3371C722297C18005C0CD7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB3371C822297C18005C0CD7 /* Build configuration list for PBXNativeTarget "TemporalShift tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB3371C922297C18005C0CD7 /* Debug */,
-				AB3371CA22297C18005C0CD7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB3371CB22297C18005C0CD7 /* Build configuration list for PBXNativeTarget "TemporalShift macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AB3371CC22297C18005C0CD7 /* Debug */,
-				AB3371CD22297C18005C0CD7 /* Release */,
+				ABB5DF93222DC019009D4058 /* Debug */,
+				ABB5DF94222DC019009D4058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AB33718422297C14005C0CD7 /* Project object */;
+	rootObject = ABB5DF76222DC017009D4058 /* Project object */;
 }

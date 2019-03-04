@@ -25,10 +25,10 @@ class LidarLocation : BaseLocation {
         // show location name
         let infoLabel = SKLabelNode()
         infoLabel.horizontalAlignmentMode = .left
-        infoLabel.color = SCNColor.blue
+        infoLabel.color = SKColor.blue
         infoLabel.text = "Location: \(name)"
         infoLabel.fontSize = 14.0;
-        infoLabel.fontColor = SCNColor.green
+        infoLabel.fontColor = SKColor.green
         infoLabel.position = CGPoint(x: 20, y: frameSize.height - 50)
         hud.addChild(infoLabel)
     }

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TemporalShift tvOS
+//  TemporalShift
 //
-//  Created by Florian Bruggisser on 01.03.19.
+//  Created by Florian Bruggisser on 04.03.19.
 //  Copyright © 2019 Florian Bruggisser. All rights reserved.
 //
 
@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
