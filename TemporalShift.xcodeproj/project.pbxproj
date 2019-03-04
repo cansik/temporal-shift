@@ -113,6 +113,7 @@
 		AB33718822297C14005C0CD7 /* TemporalShift Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AB3E56EF2229806300616943 /* ui */,
 				AB9CDA4F22297C80008947F8 /* locations */,
 				AB9CDA4B22297C80008947F8 /* model */,
 				AB9CDA4D22297C80008947F8 /* story */,
@@ -165,6 +166,13 @@
 				AB3371B922297C18005C0CD7 /* Info.plist */,
 			);
 			path = "TemporalShift macOS";
+			sourceTree = "<group>";
+		};
+		AB3E56EF2229806300616943 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ui;
 			sourceTree = "<group>";
 		};
 		AB9CDA4B22297C80008947F8 /* model */ = {

@@ -47,10 +47,11 @@ class LidarLocation : BaseLocation {
         
         // setup camera
         let camera = cameraNode.camera!
-        camera.usesOrthographicProjection = true
+        camera.usesOrthographicProjection = false
         camera.orthographicScale = 9
         camera.zNear = 0.005
-        camera.zFar = 5000
+        camera.zFar = 10000
+        cameraNode.position = SCNVector3Make(0, 0, 0)
         
         setupHud(frameSize: sceneRenderer.frame.size)
     }
