@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB94E5092232E23500F402C4 /* Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94E5082232E23500F402C4 /* Lerp.swift */; };
 		ABB5DF82222DC017009D4058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF81222DC017009D4058 /* AppDelegate.swift */; };
 		ABB5DF84222DC017009D4058 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DF83222DC017009D4058 /* art.scnassets */; };
 		ABB5DF86222DC017009D4058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF85222DC017009D4058 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB94E5082232E23500F402C4 /* Lerp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lerp.swift; sourceTree = "<group>"; };
 		ABB5DF7E222DC017009D4058 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB5DF81222DC017009D4058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB5DF83222DC017009D4058 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB94E5072232E22700F402C4 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				AB94E5082232E23500F402C4 /* Lerp.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 		ABB5DF75222DC017009D4058 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		ABB5DF80222DC017009D4058 /* TemporalShift */ = {
 			isa = PBXGroup;
 			children = (
+				AB94E5072232E22700F402C4 /* util */,
 				ABB5DF9A222DC054009D4058 /* locations */,
 				ABB5DF95222DC054009D4058 /* model */,
 				ABB5DF98222DC054009D4058 /* story */,
@@ -191,6 +202,7 @@
 			files = (
 				ABB5DFA3222DC054009D4058 /* LidarLocation.swift in Sources */,
 				ABB5DFA4222DC054009D4058 /* BaseLocation.swift in Sources */,
+				AB94E5092232E23500F402C4 /* Lerp.swift in Sources */,
 				ABB5DFA2222DC054009D4058 /* LocationUtils.swift in Sources */,
 				ABB5DF86222DC017009D4058 /* ViewController.swift in Sources */,
 				ABB5DF9F222DC054009D4058 /* Event.swift in Sources */,

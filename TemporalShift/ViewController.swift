@@ -22,16 +22,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
+    
+        // create new location
+        let location = LidarLocation(name: "Seepromenade", cloudName: "Seepromenade_2m_mod")
+        location.setup(sceneRenderer: sceneView)
+        let scene = location.scene
         
-        // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/Seepromenade_2m_mod.scn")!
-        
+        // scale cloud
         let cloud = scene.rootNode.childNode(withName: "cloud", recursively: true)!
         cloud.scale = SCNVector3(0.1, 0.1, 0.1)
         
         // Set the scene to the view
         sceneView.scene = scene
-        
+        sceneView.overlaySKScene = location.hud
+        sceneView.overlaySKScene?.isUserInteractionEnabled = false
         sceneView.scene.background.contents = UIColor.black
     }
     
