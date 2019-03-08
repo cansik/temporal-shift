@@ -19,6 +19,7 @@ float noiseSine(float x, float PI, float phase) {
 //_geometry.position.y = mix(0.0, _geometry.position.y, scaleY);
 
 // apply ground noise x
+/*
 float dx = random(_geometry.position.xz);
 float phaseX = random(_geometry.position.yz);
 _geometry.position.x += noiseX * dx * noiseSine(u_time, PI, phaseX);
@@ -27,3 +28,4 @@ _geometry.position.x += noiseX * dx * noiseSine(u_time, PI, phaseX);
 float dy = random(_geometry.position.xy);
 float phaseY = random(_geometry.position.xz);
 _geometry.position.y += noiseY * dy * noiseSine(u_time, PI, phaseY);
+*/

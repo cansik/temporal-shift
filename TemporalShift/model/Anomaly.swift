@@ -16,6 +16,7 @@ class Anomaly {
     
     var vertexShader : String = ""
     var fragmentShader : String = ""
+    var surfaceShader : String = ""
     
     init(image : SCNNode) {
         self.image = image
@@ -29,6 +30,7 @@ class Anomaly {
         do {
             vertexShader = try String(contentsOfFile: (Bundle.main.url(forResource: "anomalyVertex", withExtension: "glsl")?.path)!, encoding: .utf8)
             fragmentShader = try String(contentsOfFile: (Bundle.main.url(forResource: "anomalyFragment", withExtension: "glsl")?.path)!, encoding: .utf8)
+            surfaceShader = try String(contentsOfFile: (Bundle.main.url(forResource: "anomalySurface", withExtension: "glsl")?.path)!, encoding: .utf8)
         } catch {
             print(error)
         }
@@ -38,7 +40,8 @@ class Anomaly {
     {
         material.shaderModifiers = [
             SCNShaderModifierEntryPoint.geometry: vertexShader,
-            SCNShaderModifierEntryPoint.fragment: fragmentShader
+            //SCNShaderModifierEntryPoint.fragment: fragmentShader,
+            SCNShaderModifierEntryPoint.surface: surfaceShader
         ];
     }
 }
