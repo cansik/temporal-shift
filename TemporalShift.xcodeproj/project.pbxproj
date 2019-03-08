@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AB94E5092232E23500F402C4 /* Lerp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94E5082232E23500F402C4 /* Lerp.swift */; };
+		AB94E50B2232E68E00F402C4 /* Anomaly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB94E50A2232E68E00F402C4 /* Anomaly.swift */; };
+		AB94E5102232E87D00F402C4 /* anomalyFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = AB94E50F2232E87C00F402C4 /* anomalyFragment.glsl */; };
+		AB94E5142232EF7F00F402C4 /* anomalyVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = AB94E5132232EF7F00F402C4 /* anomalyVertex.glsl */; };
 		ABB5DF82222DC017009D4058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF81222DC017009D4058 /* AppDelegate.swift */; };
 		ABB5DF84222DC017009D4058 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB5DF83222DC017009D4058 /* art.scnassets */; };
 		ABB5DF86222DC017009D4058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5DF85222DC017009D4058 /* ViewController.swift */; };
@@ -24,6 +27,9 @@
 
 /* Begin PBXFileReference section */
 		AB94E5082232E23500F402C4 /* Lerp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lerp.swift; sourceTree = "<group>"; };
+		AB94E50A2232E68E00F402C4 /* Anomaly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anomaly.swift; sourceTree = "<group>"; };
+		AB94E50F2232E87C00F402C4 /* anomalyFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = anomalyFragment.glsl; sourceTree = "<group>"; };
+		AB94E5132232EF7F00F402C4 /* anomalyVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = anomalyVertex.glsl; path = images/anomalyVertex.glsl; sourceTree = SOURCE_ROOT; };
 		ABB5DF7E222DC017009D4058 /* TemporalShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemporalShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB5DF81222DC017009D4058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB5DF83222DC017009D4058 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -59,6 +65,15 @@
 			path = util;
 			sourceTree = "<group>";
 		};
+		AB94E50C2232E81300F402C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB94E50F2232E87C00F402C4 /* anomalyFragment.glsl */,
+				AB94E5132232EF7F00F402C4 /* anomalyVertex.glsl */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ABB5DF75222DC017009D4058 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +93,7 @@
 		ABB5DF80222DC017009D4058 /* TemporalShift */ = {
 			isa = PBXGroup;
 			children = (
+				AB94E50C2232E81300F402C4 /* Resources */,
 				AB94E5072232E22700F402C4 /* util */,
 				ABB5DF9A222DC054009D4058 /* locations */,
 				ABB5DF95222DC054009D4058 /* model */,
@@ -98,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB5DF96222DC054009D4058 /* Event.swift */,
+				AB94E50A2232E68E00F402C4 /* Anomaly.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -160,6 +177,7 @@
 				TargetAttributes = {
 					ABB5DF7D222DC017009D4058 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -189,7 +207,9 @@
 				ABB5DF84222DC017009D4058 /* art.scnassets in Resources */,
 				ABB5DF8E222DC019009D4058 /* LaunchScreen.storyboard in Resources */,
 				ABB5DF8B222DC019009D4058 /* Assets.xcassets in Resources */,
+				AB94E5102232E87D00F402C4 /* anomalyFragment.glsl in Resources */,
 				ABB5DF89222DC017009D4058 /* Main.storyboard in Resources */,
+				AB94E5142232EF7F00F402C4 /* anomalyVertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +229,7 @@
 				ABB5DFA1222DC054009D4058 /* Location.swift in Sources */,
 				ABB5DF82222DC017009D4058 /* AppDelegate.swift in Sources */,
 				ABB5DFA0222DC054009D4058 /* Story.swift in Sources */,
+				AB94E50B2232E68E00F402C4 /* Anomaly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9K4A7PDPV;
 				INFOPLIST_FILE = TemporalShift/Info.plist;
@@ -363,6 +385,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ch.bildspur.TemporalShift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9K4A7PDPV;
 				INFOPLIST_FILE = TemporalShift/Info.plist;
