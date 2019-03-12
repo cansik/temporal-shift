@@ -17,6 +17,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        UIApplication.shared.isIdleTimerDisabled = true
+        
         // Set the view's delegate
         sceneView.delegate = self
         
@@ -58,14 +60,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     // MARK: - ARSCNViewDelegate
     
-/*
     // Override to create and configure nodes for anchors added to the view's session.
+    /*
     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
         let node = SCNNode()
      
         return node
     }
-*/
+ */
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user

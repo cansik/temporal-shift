@@ -34,6 +34,18 @@ class LidarLocation : BaseLocation {
         hud.addChild(infoLabel)
     }
     
+    func setupSounds() {
+        // find all sound
+        let sounds = scene.rootNode.childNodes { (node, _) -> Bool in
+            node.name != nil && node.name!.starts(with:  "sound")
+        }
+        
+        // create sounds
+        anomalies = sounds.map({ (node) -> Anomaly in
+            return Anomaly(image: node)
+        })
+    }
+    
     func setupAnomalies() {
         // find all images
         let images = scene.rootNode.childNodes { (node, _) -> Bool in
